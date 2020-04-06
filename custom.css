@@ -1,0 +1,28 @@
+header {
+  background-color: rgb(119, 47, 47);
+}
+.top-bar {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+header a {
+  color: azure;
+}
+.logo {
+  max-width: 200px;
+  margin: .5rem 1rem .5rem 0;
+}
+.btn-login {
+  margin-left: auto;
+}
+
+main {
+  background-color: #e2e2e2;
+}
+
+footer {
+  background-color: rgb(119, 47, 47);
+  color: azure;
+  padding: .5rem 1rem;
+}
