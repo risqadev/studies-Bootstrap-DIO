@@ -11,16 +11,33 @@
   </head>
 
   <body>
-    <header class="container-flex">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <header id="top" class="container-flex">
+      <nav id="menu-list" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
           <img class="logo"
           src="./img/logo-dio.png"
           alt="Logo Digital Innovation One"/>
         </a>
-          <ul class="navbar navbar-nav">
+        <nav class="nav nav-pills flex-row">
+          <a href="#top" class="nav-link">
+            Home
+          </a>
+          <a href="#about" class="nav-link">
+            Quem Somos
+          </a>
+          <a href="#services" class="nav-link">
+            Serviços
+          </a>
+          <a href="#partiners" class="nav-link">
+            Paceiros
+          </a>
+          <a href="#contact" class="nav-link">
+            Contatos
+          </a>
+        </nav>
+          <!-- <ul class="navbar navbar-nav nav-pills">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#top" class="nav-link">
                 Home
               </a>
             </li>
@@ -44,7 +61,7 @@
                 Contatos
               </a>
             </li>
-          </ul>
+          </ul> -->
         <a class="btn btn-outline-info btn-login" href="#">Entrar</a>
       </nav>
     </header>
@@ -75,47 +92,56 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <main class="container-fluid">
-      Main do site
 
-      <section id="container-fluid text-center margin about">
+    <main data-spy="scroll" data-target="#menu-list" data-offset="0" class="">
+
+      <section id="about" class="container-fluid text-center">
+        <h1>Quem somos</h1>
         <img class="rounded-circle team"
          src="./img/team.jpg"
          alt="team">
-        <h1>Quem somos</h1>
       </section>
 
       <section id="services">
         <h1>Serviços</h1>
+        <img class="rounded-circle team"
+         src="./img/team.jpg"
+         alt="team">
       </section>
 
       <section id="partiners">
         <h1>Parceiros</h1>
+        <img class="rounded-circle team"
+         src="./img/team.jpg"
+         alt="team">
       </section>
 
       <section id="contact">
         <h1>Contato</h1>
+        <img class="rounded-circle team"
+         src="./img/team.jpg"
+         alt="team">
       </section>
-
-      <section id="contact">
+<!-- 
+      <section id="contact-reply-1">
         <h1>Contato</h1>
       </section>
 
-      <section id="contact">
+      <section id="contact-reply-2">
         <h1>Contato</h1>
       </section>
 
-      <section id="contact">
+      <section id="contact-reply-3">
         <h1>Contato</h1>
       </section>
 
-      <section id="contact">
+      <section id="contact-reply-4">
         <h1>Contato</h1>
       </section>
 
-      <section id="contact">
+      <section id="contact-reply-5">
         <h1>Contato</h1>
-      </section>
+      </section> -->
     </main>
 
     <footer class="container-fluid text-center">
