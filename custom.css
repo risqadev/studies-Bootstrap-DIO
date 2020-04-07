@@ -1,16 +1,17 @@
 header {
-  background-color: rgb(119, 47, 47);
+  /* background-color: rgb(119, 47, 47); */
+  font-size: 1.2rem;
 }
 .top-bar {
   /* display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between; */
 }
-header a {
-  color: azure;
-}
+
 .logo {
   max-width: 200px;
+  max-height: 50px;
   margin: .5rem 1rem .5rem 0;
 }
 .btn-login {
