@@ -1,9 +1,9 @@
 # studies-Bootstrap-DIO
 
-Curso Construindo páginas para internet com Bootstrap
-      ===============================================
+Construindo páginas para internet com Bootstrap
+===============================================
 
-Digital Innovation One
-----------------------
+[Digital Innovation One](https://digitalinnovation.one/)
+------------------------
 
 Data: 6 abr. 2020
