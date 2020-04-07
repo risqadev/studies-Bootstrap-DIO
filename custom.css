@@ -1,3 +1,7 @@
+body {
+  padding-top: 92px;
+}
+
 header {
   /* background-color: rgb(119, 47, 47); */
   font-size: 1.2rem;
@@ -18,12 +22,14 @@ header {
   margin-left: auto;
 }
 
+#menu-btn {
+  margin-left: 20px;
+}
+
 main {
   background-color: #e2e2e2;
 }
 
 footer {
-  background-color: rgb(119, 47, 47);
-  color: azure;
   padding: .5rem 1rem;
 }
