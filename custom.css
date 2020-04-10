@@ -21,6 +21,17 @@ main {
   background-color: #e2e2e2;
 }
 
+img.team {
+  max-width: 300px;
+}
+
+img.services {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
 footer {
   padding: .5rem 1rem;
   color: rgba(255, 255, 255, .7);
