@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./custom.css">
 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
     <title>DIO | Bootstrap</title>
   </head>
 
@@ -86,19 +89,19 @@
       </a>
     </div>
     
-    <main class=" container-flex text-center">
+    <main class="container-flex text-center">
       
       <section id="about" class="container-lg pt-4 pb-4">
         <h2>Quem somos</h2>
         <img class="rounded-circle team"
         src="./img/team.jpg"
         alt="team">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consequatur ab qui, labore architecto quisquam pariatur asperiores eaque, aliquid autem, atque dolore? Totam blanditiis mollitia et neque nesciunt quaerat doloremque? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum dignissimos repellendus consequatur, velit sint facere, voluptatibus nesciunt praesentium vero ut, alias maxime. Accusamus dignissimos qui alias? Nulla ex et aspernatur.</p>
+        <p>Modelo de site desenvolvido durante o curso 'Constuindo páginas para internet com Bootstrap' oferecido pela Digital Innovation One, utilizando o Bootstrap, versão 4.4.1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vitae cupiditate fugiat a quaerat fugit necessitatibus exercitationem odit animi, perspiciatis ullam optio aspernatur dignissimos dolore quod earum vero, placeat libero.</p>
       </section>
 
       <hr class="hor-line">
 
-      <div id="services-row" class="row">
+      <div id="services-row" class="container-flex">
         <section id="services" class="container-lg pt-4 pb-4">
           <h2>Serviços</h2>
           <div class="row">
@@ -129,7 +132,7 @@
 
       <hr class="hor-line">
 
-      <div id="partiners-row" class="row">
+      <div id="partiners-row" class="container-flex">
         <section id="partiners" class="container-lg pt-4 pb-4">
           <h2>Parceiros</h2>
           <div class="row">
@@ -183,11 +186,48 @@
       <hr class="hor-line">
 
       <section id="contact" class="container-lg pt-4 pb-4">
+
         <h2>Contato</h2>
-        <img class="rounded-circle team"
-         src="./img/team.jpg"
-         alt="team">
+
+        <p class="text-center w-responsive mx-auto mb-5">Você tem qualquer dúvida? Por favor, entre em contato conosco. Teremos prazer em respondê-lo.</p>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="list-unstyled">
+              <li>
+                <span class="fas fa-map-marker-alt fa-2x"></span>
+                <p><a href="#">Endereço</a></p>
+              </li>
+              <li>
+                <span class="fas fa-phone fa-2x"></span>
+                <p><a href="#">+55 00 3333-3333</a></p>
+              </li>
+              <li>
+                <span class="fas fa-envelope fa-2x"></span>
+                <p><a href="#">teste@teste.com</a></p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-9">
+            <form>
+              <div class="row">
+                <input type="text" class="col form-control-lg" id="contact-name" name="contact-name" placeholder="Seu nome">
+                <input type="email" class="col form-control-lg" id="contact-email" name="contact-email" placeholder="Seu e-mail">
+              </div>
+              <div class="row">
+                <input type="text" class="col form-control-lg" id="contact-subject" name="contact-subject" placeholder="Assunto">
+              </div>
+              <div class="row">
+                <textarea class="col form-control-lg" id="contact-message" name="contact-message" placeholder="Sua mensagem"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+          </div>  
+        </div>
+
       </section>
+
     </main>
 
     <footer class="container-fluid text-center bg-dark text-light">
